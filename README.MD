@@ -61,7 +61,7 @@ This project automates test scenarios for the Swag Labs application using Robot 
 ## Running Tests
 
 1. Navigate to the project directory and execute the following command.
-3. Run all the test suite:
+3. Run single test suite:
     ```bash
     robot tests/test_purchase.robot
     ```
