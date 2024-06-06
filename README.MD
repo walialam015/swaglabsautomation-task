@@ -36,25 +36,26 @@ This project automates test scenarios for the Swag Labs application using Robot 
     ```
 
 ## Project Structure
-
-SwagLabsAutomation/                                         
-├── resources/                                              
-│    ├──common.robot
-│    └── PO/
-│       ├── CartPage.robot
-│       ├── CheckoutPage.robot
-│       ├── FinishPage.robot
-│       ├── InventoryPage.robot
-│       └── LoginPage.robot
-├── tests/
-│   ├── test_locked_out_user.robot
-│   ├── test_purchase.robot
-│   ├── test_sort_products.robot
-│   └── test_login_failure.robot
-│
-├── results/
-├── README.MD
-└── .gitignore
+```
+    SwagLabsAutomation/                                         
+    ├── resources/                                              
+    │    ├──common.robot
+    │    └── PO/
+    │       ├── CartPage.robot
+    │       ├── CheckoutPage.robot
+    │       ├── FinishPage.robot
+    │       ├── InventoryPage.robot
+    │       └── LoginPage.robot
+    ├── tests/
+    │   ├── test_locked_out_user.robot
+    │   ├── test_purchase.robot
+    │   ├── test_sort_products.robot
+    │   └── test_login_failure.robot
+    │
+    ├── results/
+    ├── README.MD
+    └── .gitignore
+```
 
 
 ## Running Tests
